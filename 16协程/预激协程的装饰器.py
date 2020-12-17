@@ -10,7 +10,6 @@ def coroutine(func):
         next(gen)
         return gen
     return primer
-
 '''
 from coroutil import coroutine
 
